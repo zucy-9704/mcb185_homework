@@ -34,6 +34,8 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ introduced myself to Malik Hasaan
 	+ asked a question in class
 - Week 2
+	+ Introduced myself to Orlando
+	+ attended class on Tuesday
 - Week 3
 - Week 4
 - Week 5
