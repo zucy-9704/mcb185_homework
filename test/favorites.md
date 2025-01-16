@@ -1,20 +1,20 @@
-//My Favorite Things
+##My Favorite Things
 
-///Favorite Foods:
-	* tomatoes
-	* apples
-	* noodles
-	* rice
+###Favorite Foods:###
+	+tomatoes
+	+apples
+	+noodles
+	+rice
 
-///Favorite Music Artists:
-	* The Cardigans
-	* Adrianne Lenker
-	* Part Time
-	* Pyotr Ilyich Tchaikovsky
-	* Lamp
-	* Macabre Plaza
+###Favorite Music Artists:###
+	+The Cardigans
+	+Adrianne Lenker
+	+Part Time
+	+Pyotr Ilyich Tchaikovsky
+	+Lamp
+	+Macabre Plaza
 
-///Favorite Seasons (in order):
+###Favorite Seasons (in order):###
 	1. Winter
 	2. Fall
 	3. Spring
