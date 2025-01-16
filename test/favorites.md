@@ -1,4 +1,4 @@
-##My Favorite Things
+## My Favorite Things ##
 
 ###Favorite Foods:###
 	+tomatoes
