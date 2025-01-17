@@ -38,6 +38,7 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ attended class on Tuesday
 	+ I met Sophia on Thursday
 	+ I attended class on Thursday
+	+ I asked a question
 - Week 3
 - Week 4
 - Week 5
