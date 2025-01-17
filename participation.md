@@ -31,14 +31,16 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ I demoed at the front of class
 	+ attended class on Tuesday
 	+ attended class on Thursday
-	+ introduced myself to Malik Hasaan
+	+ introduced myself to Malik
 	+ asked a question in class
+	+ 5 points
 - Week 2
 	+ Introduced myself to Orlando
 	+ attended class on Tuesday
 	+ I met Sophia on Thursday
 	+ I attended class on Thursday
 	+ I asked a question
+	+ 5 points
 - Week 3
 - Week 4
 - Week 5
