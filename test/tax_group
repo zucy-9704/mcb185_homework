@@ -1,1 +1,3 @@
+run a line of code to see how many different tax groups there are in the jaspar file
+
 gunzip -c jaspar2024_core.transfac.gz|grep -E "tax_group"|cut -f 1|sort|uniq -c
