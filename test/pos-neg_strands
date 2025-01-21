@@ -1,0 +1,7 @@
+gunzip -c A.thaliana.gff.gz|grep -cE "\+"
+11663
+
+gunzip -c A.thaliana.gff.gz|grep -cE "\-" 
+15996
+
+There are more negative strands
