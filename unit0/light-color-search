@@ -1,0 +1,17 @@
+less ../../MCB185/data/colors_extended.tsv|cut -f 1|grep -E "^light" > light-color-search
+
+lightblue
+lightcoral
+lightcyan
+lightgoldenrodyellow
+lightgray
+lightgreen
+lightgrey
+lightpink
+lightsalmon
+lightseagreen
+lightskyblue
+lightslategray
+lightslategrey
+lightsteelblue
+lightyellow
