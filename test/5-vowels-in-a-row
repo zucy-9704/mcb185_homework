@@ -1,0 +1,6 @@
+gunzip -c dictionary.gz|grep -E "[aeiou]{5}"
+cooeeing
+miaoued
+miaouing
+queueing
+
