@@ -43,8 +43,15 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ 5 points
 - Week 3
 	+ I attended class on Tuesday
-	+ I did an assessment in class on Tuesday
+	+ I did a practice assessment in class on Tuesday
+	+ I asked a question in Discord
+	+ I did the unit 0 assessment on Wednesday evening
+	+ I attended class on Thursday
+	+ 5 points
 - Week 4
+	+ I came to class on Tuesday
+	+ I did the unit 1 assessment on Thursday evening
+	+ I attended class on Thursday
 - Week 5
 - Week 6
 - Week 7
