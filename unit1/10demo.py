@@ -23,8 +23,8 @@ def rect_area (w, h): return w * h
 print (rect_area(3, 4))
 
 # 'if' statements
-a = 2.2
-b = 2
+a = 0.3
+b = 4
 if a==b: 
 	print ('a equals b')
 	print (a, b)
@@ -44,3 +44,14 @@ print (type(c))
 if a < b: print('a < b')
 elif a > b: print('a > b')
 else: print('a==b')
+
+if math.isclose(a, b): print ('close enough')
+
+s1 = 'A'
+s2 = 'B'
+s3 = 'a'
+if s1 < s2: print ('A < B')
+if s2 < s3: print ('B < a')
+
+def silly(m, x, b): y = m * x + b
+print(silly(2, 3, 4))
