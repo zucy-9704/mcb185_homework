@@ -1,4 +1,4 @@
-# 12phred.py by Zucy
+# max3_practice by Zucy
 
 def max3(x, y, z): 
 	if x > y > z: return x
