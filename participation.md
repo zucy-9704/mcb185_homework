@@ -57,7 +57,12 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ 5 points
 - Week 5
 	+ I came to class on Tuesday
+	+ I did not come to class on Thursday to prevent getting anyone sick
+	+ I took the unit 1 assessment
+	+ I introduced myself to Jedikayle
+	+ 4 points
 - Week 6
+	+ I came to class on Tuesday
 - Week 7
 - Week 8
 - Week 9
