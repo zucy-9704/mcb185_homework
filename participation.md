@@ -63,6 +63,10 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ 4 points
 - Week 6
 	+ I came to class on Tuesday
+	+ I asked a question in class
+	+ I came to class on Thursday
+	+ I went to had a study session with Malik
+	+ I helped someone with their code outside of class
 - Week 7
 - Week 8
 - Week 9
