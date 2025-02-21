@@ -24,7 +24,7 @@ print(m[0], m[1])				#using numeric index of tuples, starting at 0
 i = 0       #ea time through the loop, value i increases by 1
 while True:
        i = i + 1
-       print('hello', i)      #any cammand, will run if true
+       print('hello', i)      #any command, will run if true
        if i == 3: break    #break command stops the loop, in this case, when i reaches 3"
        
 i = 0
@@ -39,5 +39,20 @@ basket = 'milk', 'eggs', 'bread'
 for thing in basket:		#this line defines "things"
 	print(thing)
 
-for i in range(len(basket)):
+for i in range(len(basket)):	#isn't the last number an end-before??
 	print(basket[i])
+
+
+import random
+for i in range(5):
+	print(random.random())
+
+random.seed(1)	# seed 1 is like a file name containing the two below random #s
+print(random.random())	# these random #s are reproducible in the order they are generated
+print(random.random())
+random.seed(2)
+print(random.random())
+print(random.random())
+random.seed(1)	# ea call to random.seed() resets the random # generator
+print(random.random())
+print(random.random())
