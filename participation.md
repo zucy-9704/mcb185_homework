@@ -69,6 +69,10 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ I helped someone with their code outside of class
 	+ 5 points
 - Week 7
+	+ I came to class on Tuesday
+	+ I asked a question in class
+	+ I came to class on Thursday
+	+ I attended a Coderie on Thursday evening
 - Week 8
 - Week 9
 - Week 10
