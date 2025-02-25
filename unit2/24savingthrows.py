@@ -2,7 +2,7 @@
 
 import random
 
-n = 50
+num_rolls = 50
 p5 = 0
 p5a = 0
 p5d = 0
@@ -13,7 +13,7 @@ p15 = 0
 p15a = 0
 p15d = 0
 
-for rolls in range(n):
+for rolls in range(num_rolls):
 	d20 = random.randint(1,20)
 	if d20 >= 15: 
 		p15 += 1
@@ -26,7 +26,7 @@ for rolls in range(n):
 		print('DC5 success')
 	else: print('you failed :(')
 	
-for doubroll in range(n):
+for doubroll in range(num_rolls):
 	d20i = random.randint(1,20)
 	d20ii = random.randint(1, 20)
 	if d20i > d20ii:
