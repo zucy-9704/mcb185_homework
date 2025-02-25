@@ -76,5 +76,7 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ I asked a question on Discord
 	+ 5 points
 - Week 8
+	+ I attended office hours on Sunday
+	+ I did unit 2 assessment
 - Week 9
 - Week 10
