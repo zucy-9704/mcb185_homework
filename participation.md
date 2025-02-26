@@ -78,5 +78,6 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 8
 	+ I attended office hours on Sunday
 	+ I did unit 2 assessment
+	+ I attended class on Tuesday
 - Week 9
 - Week 10
