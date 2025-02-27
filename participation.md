@@ -80,5 +80,6 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ I did unit 2 assessment
 	+ I attended class on Tuesday
 	+ Study session with Jedikayle
+	+ Study session with Malik
 - Week 9
 - Week 10
