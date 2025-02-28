@@ -155,13 +155,7 @@ i = int('42')
 x = float('0.4579')
 print(i * x)
 
-x = float('hi:3')
-
-
-
-
-
-
+# x = float('hi:3')	# cannot be converted into a float :(
 
 
 import sys
