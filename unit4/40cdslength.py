@@ -36,7 +36,7 @@ with gzip.open(sys.argv[1], 'rt') as fp:
 with gzip.open(sys.argv[1], 'rt') as fp:
 	for line in fp:	# defines ea line as part of a tuple
 		if line[0] != '#':	# skip ('!=' means 'not equal to') over comment lines
-			# why do you need to index the lines?
+			# you are indexing ea character in a line
 			words = line.split()
 				# split the words in ea line into strings, delimiter = [spaces]
 				# makes list of strings (words)
