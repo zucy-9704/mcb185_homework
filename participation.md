@@ -81,5 +81,9 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ I attended class on Tuesday
 	+ Study session with Jedikayle
 	+ Study session with Malik
+	+ 5 points
 - Week 9
+	+ I attended office hours on Sunday
+	+ I attended class on Tuesday
+
 - Week 10
