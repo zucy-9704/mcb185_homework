@@ -18,9 +18,6 @@ def translate(dna):
 	for i in range(0, len(dna), 3):	# every 3 nt is a new codon
 		codon = dna[i:i+3]	# defines nt included in a codon
 		if codon == 'ATG': aas.append('M')	# methionine
-		elif codon == 'TAA': aas.append('*')	# lines 21-23 are stop codons
-		elif codon == 'TAG': aas.append('*')
-		elif codon == 'TGA': aas.append('*')
 		elif codon == 'TTT': aas.append('F')
 		elif codon == 'TTC': aas.append('F')
 		elif codon == 'TTA': aas.append('L')
@@ -81,6 +78,15 @@ def translate(dna):
 		elif codon == 'GGC': aas.append('G')
 		elif codon == 'GGA': aas.append('G')
 		elif codon == 'GGG': aas.append('G')
+		elif codon == 'TAA': 
+			aas.append('*')
+			break	# lines 21-23 are stop codons
+		elif codon == 'TAG': 
+			aas.append('*')
+			break
+		elif codon == 'TGA': 
+			aas.append('*')
+			break
 	return ''.join(aas)	# return a string of aa (pp chain)
 	
 """
