@@ -12,15 +12,16 @@ for defline, seq in mcb185.read_fasta(sys.argv[1]):
 	g = seq[0:w].count('G')
 	c = seq[0:w].count('C')
 	print(sequence.gc_comp(seq[0:w]), sequence.gc_skew(seq[0:w]))		
-	for i in range(len(seq) - w - 1):	# i is number of open windows
-		s = seq[i:i+w]
-		if s[i] == 'G':
+	for i in range(len(seq) - w):	# i is number of open windows
+		if seq[i] == 'G':
 			g -= 1
-		if s[i] == 'C':
+		if seq[i] == 'C':
 			c -= 1
-		if s[i+w+1] == 'G':
+		if seq[i+w+1] == 'G':
 			g += 1
-		if s[i+w+1] == 'C':
+		if seq[i+w+1] == 'C':
 			c += 1
-		print((g + c)/w, (g - c)/(g + c))
-			
+		gc_comp = (g + c) / w
+		if g + c == 0: skew = 0
+		else: skew = ((g - c)/(g + c))
+		print(i, gc_comp, skew)
