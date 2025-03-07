@@ -3,7 +3,6 @@
 import sys
 import mcb185
 import sequence
-import gzip
 
 def hydrophobicity(seq):
 	aas = 'IVLFCMAGTSWYPHEQDNKR'
@@ -17,7 +16,7 @@ def hydrophobicity(seq):
 def tot(kds_vals):
 	tot = 0
 	for kds_val in kds_vals:
-		tot += kds_vals
+		tot += kds_val
 	return tot
 
 def is_transmem(seq):

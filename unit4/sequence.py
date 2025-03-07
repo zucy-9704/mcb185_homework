@@ -1,5 +1,6 @@
 # sequence.py	by Zucy
 
+
 def transcribe(dna):	# assuming you input the coding strand
 	return dna.replace('T', 'U')	
 	
