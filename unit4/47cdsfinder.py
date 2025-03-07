@@ -17,4 +17,5 @@ def cdsfinder(fasta_file):
 			else: print(aa, end = '')
 
 print(cdsfinder(s))
-print(cdsfinder(sequence.revcomp(s)))
+for defline, seq in mcb185.read_fasta(s):
+	print(cdsfinder(sequence.revcomp(seq)))
