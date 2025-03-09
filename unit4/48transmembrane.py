@@ -43,3 +43,10 @@ def is_transmem(seq):
 for defline, seq in mcb185.read_fasta(sys.argv[1]):
 	if is_transmem(seq):
 		print(defline[:60])
+	
+	
+	
+	
+	
+	
+	
