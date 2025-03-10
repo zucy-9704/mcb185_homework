@@ -28,6 +28,36 @@ print('dusting with', arg.file, arg.size, arg.entropy, arg.lower)
 # to override window size & entropy:
 # python3 53dust.py e.coli.fa.gz --size 15 --entropy 1.2
 
+import mcb185
+import sys
+import math
+
+w = int(arg.size)	# window is 20 characters long
+ent_thresh = float(arg.entropy)	# entropy threshold is 1.4
+
+for defline, seq in mcb185.read_fasta(arg.file):
+	for nt in seq:
+		for nt in range(len(seq) - w + 1):
+			s = seq[nt:nt+w]
+			a = s.count('A')
+			c = s.count('C')
+			g = s.count('G')
+			t = s.count('T')
+			nts = a, c, g, t
+			for i in nts:
+				hlist = []
+				if i == 0: continue
+				p = i/w
+				h = p * math.log2(p)
+				hlist.append(h)
+			H = -1 * math.fsum(hlist)
+			if H < ent_thresh:
+				newseq = seq.replace(seq[nt], 'N')
+				softmask = seq.replace(seq[nt], seq[nt].lower())
+			if arg.lower: print(softmask)
+			else: print(newseq)
+
+
 
 
 

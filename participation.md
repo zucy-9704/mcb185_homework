@@ -90,3 +90,4 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ I had a study session with Malik
 	+ 5 points
 - Week 10
+	+ I attended office hours on Sunday
