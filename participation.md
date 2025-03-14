@@ -94,3 +94,5 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ I had a study session with Malik on Monday
 	+ I attended class on Tuesday
 	+ I got assessed in person for unit 5 on Tuesday
+	+ I attended office hours
+	+ 5 points
